@@ -5,31 +5,39 @@
 }
 div {
   border: 2px solid black;
+  font-size: 5rem;
 }
 .bridge {
-  background: url("./images/bridge.jpeg");
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./images/bridge.jpeg") center/cover no-repeat fixed;
   width: 100vw;
+
   min-height: 100vh;
+
   /* background-repeat: space; */
+
+  position: relative;
+}
+.girl {
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)),
+    url("./images/girl.jpeg");
+  width: 100vw;
+  height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-}
-.girl {
-  background: url("./images/girl.jpeg");
-  width: 100vw;
-  height: 100vh;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
+  position: relative;
 }
 .telephone {
-  background: url("./images/telephone.jpeg");
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)),
+    url("./images/telephone.jpeg");
   width: 100vw;
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
+  position: relative;
 }
 p {
   font-size: 4rem;
