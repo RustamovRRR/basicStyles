@@ -1,0 +1,26 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+.box1,
+.box2,
+.box3 {
+  width: 200px;
+  height: 200px;
+  color: #ffffff;
+  font-size: 1.5rem;
+}
+.box1 {
+  background: #360a14;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.box2 {
+  background: #6c4b5e;
+}
+.box3 {
+  background: #0f0326;
+  padding: 20px;
+}
