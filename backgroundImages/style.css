@@ -3,19 +3,26 @@
   padding: 0;
   box-sizing: border-box;
 }
+div {
+  border: 2px solid black;
+}
 .bridge {
   background: url("./images/bridge.jpeg");
   width: 100vw;
   min-height: 100vh;
+  /* background-repeat: space; */
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 .girl {
   background: url("./images/girl.jpeg");
-  width: 40vw;
+  width: 100vw;
   height: 100vh;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
+  background-position: center;
 }
 .telephone {
   background: url("./images/telephone.jpeg");
@@ -23,4 +30,12 @@
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
+}
+p {
+  font-size: 4rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: white;
+  transform: translate(-50%, -50%);
 }
