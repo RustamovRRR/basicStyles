@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #b2aa8e;
+}
+h1 {
+  color: #07075e;
+}
+a {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: #0c1b33;
+  background: #7a306c;
+  display: inline-block;
+  margin: 50px;
+  padding: 20px;
+}
