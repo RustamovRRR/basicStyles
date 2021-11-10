@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.bridge {
+  background: url("./images/bridge.jpeg");
+  width: 100vw;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.girl {
+  background: url("./images/girl.jpeg");
+  width: 40vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.telephone {
+  background: url("./images/telephone.jpeg");
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
