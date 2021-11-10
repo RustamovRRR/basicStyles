@@ -1,0 +1,46 @@
+div {
+  border: 3px solid black;
+  background: #d8a47f;
+  margin-top: 40px;
+}
+.static {
+  background: #0f7173;
+}
+.relative {
+  background: #f05d5e;
+  position: relative;
+  top: 5px;
+}
+.special {
+  background: #272932;
+  color: wheat;
+  font-size: 1.5rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.vh100 {
+  width: 80vw;
+  height: 300vh;
+  border: 2px solid red;
+  background: #0b132b;
+}
+.posFixed {
+  background: #502419;
+  color: wheat;
+  font-size: 2rem;
+  margin: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.posSticky {
+  font-size: 2rem;
+  color: wheat;
+  background: #eca400;
+  position: sticky;
+  top: 40px;
+  right: 0;
+}
