@@ -1,0 +1,17 @@
+:root {
+  --mainColor: #291720;
+  --secondaryColor: #fb8b24;
+  --textColor: #ffffff;
+  --mainFont: 1.5rem;
+  --headerFont: 3rem;
+}
+h1 {
+  background: var(--mainColor);
+  color: var(--textColor);
+  font-size: var(--headerFont);
+}
+p {
+  background: var(--secondaryColor);
+  color: var(--textColor);
+  font-size: var(--mainFont);
+}
