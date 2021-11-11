@@ -1,0 +1,21 @@
+:root {
+  font-size: 20px;
+}
+
+header h1 {
+  color: #0000ff;
+  font-size: 3rem;
+}
+
+.header > h1 {
+  color: red;
+  font-size: 4rem;
+}
+
+.first::first-line {
+  color: gray;
+  font-size: 2rem;
+}
+.first::first-letter {
+  color: blueviolet;
+}
