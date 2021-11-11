@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.translateHeader {
+  background: #6a041d;
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+}
+div {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+}
+.translate1 {
+  background: #f4ff52;
+  transform: translateX(50%);
+}
+.translate2 {
+  background: #53ff45;
+  transform: translateY(100%);
+}
+.translate3 {
+  background: #1e2ede;
+  transform: translate(50px, 50px);
+}
+.transformScale {
+  margin-top: 250px;
+  background: #020202;
+  color: wheat;
+  text-align: center;
+}
+.scale1 {
+  margin-top: 100px;
+  background: #7f5a83;
+  transform: scale(0.5);
+}
+.scale2 {
+  margin-top: 100px;
+  background: #a188a6;
+  transform: scale(1.5);
+}
+.scale3 {
+  margin-top: 100px;
+  background: #9da2ab;
+  transform: scale(0.5, 1.5);
+}
+
+.transformRotate {
+  margin-top: 200px;
+  text-align: center;
+  background: #0d324d;
+  color: wheat;
+}
+.rotate1 {
+  margin-top: 100px;
+  background: #8b2635;
+  transform: rotate(60deg);
+}
+.rotate2 {
+  margin-top: 100px;
+  background: #2e3532;
+  transform: rotate(130deg);
+}
+.rotate3 {
+  margin-top: 100px;
+  background: #335145;
+  transform: rotate(20deg);
+}
