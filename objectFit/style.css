@@ -1,0 +1,41 @@
+:root {
+  --mainColor: #291720;
+  --textColor: rgb(255, 244, 244);
+  background: #291730;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  font-size: 3rem;
+  height: 20vh;
+  background: var(--mainColor);
+  color: var(--textColor);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+img {
+  width: 100%;
+  display: block;
+  height: 60vh;
+  object-fit: cover;
+}
+.product1 {
+  float: left;
+  width: 45%;
+  margin-right: 5%;
+}
+.product2 {
+  float: left;
+  width: 45%;
+  margin-left: 5%;
+}
+p {
+  background: var(--mainColor);
+  color: var(--textColor);
+  font-size: 2rem;
+  text-align: center;
+}
