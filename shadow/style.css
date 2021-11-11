@@ -1,0 +1,17 @@
+h1 {
+  color: #291720;
+  font-size: 3rem;
+  transition: all 0.3s linear;
+}
+h1:hover {
+  text-shadow: 6px 6px 6px rgba(41, 23, 32, 0.67);
+}
+.boxShadow {
+  width: 200px;
+  height: 200px;
+  background: #fb8b24;
+  transition: all 0.3s linear;
+}
+.boxShadow:hover {
+  box-shadow: -14px -2px 27px 7px rgba(251, 139, 36, 0.2);
+}
