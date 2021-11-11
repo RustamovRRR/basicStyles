@@ -1,0 +1,18 @@
+div {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+}
+div:hover {
+  opacity: 0.5;
+  transform: scale(0.7);
+}
+.transition1 {
+  background: #007c77;
+  transition-property: opacity, transform;
+  transition-duration: 0.7s;
+}
+.transition2 {
+  background: #f0f600;
+  transition: all 1s linear;
+}
